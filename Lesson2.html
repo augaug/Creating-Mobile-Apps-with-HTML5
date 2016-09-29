@@ -11,6 +11,14 @@
     light[3] = "blue";
     light[4] = "green";
     light[5] = "orange";
+    light[5] = "khaki";
+    light[5] = "olive";
+    light[5] = "olivedrab";
+    light[5] = "cornflowerblue";
+    light[5] = "skyblue";
+    light[5] = "navy";
+    light[5] = "indigo";
+    light[5] = "violet";
 
     function flip(whichway) {
         document.body.style.backgroundColor = light[whichway];
@@ -41,8 +49,16 @@
     }
 </script>
 
-<p>This is Lesson 2, in which we design a simple flashlight app for mobile.</p>
+<p>This is Lesson 2, in which we design a simple disco flashlight app for mobile.</p>
+<p>
+    <img src="images/animated-disco-ball-5-2.gif" alt="Picture of a disco ball" />
+</p>
+<h2>This is a disco ball.</h2>
+<p>
+    <img src="images/travolta_left.gif" alt="Picture of a John Travolta" />
 
+    <h2>This is John Travolta, he can dance very well.</h2>
+</p>
 <div id="container">
 
     <div id="flashlight">
@@ -51,7 +67,7 @@
         <input type="button" id="RED" class="bigButton" value="RED" onclick="flip(2);">
     </div>
     <div id="danceparty">
-        <input type="button" id="AUTO" class="bigButton" value="AUTO" onclick="doAutoFlip(500);">
+        <input type="button" id="AUTO" class="bigButton" value="AUTO" onclick="doAutoFlip(300);">
         <input type="button" id="STOP" class="bigButton" value="STOP" onclick="stopFlip();">
     </div>
 </div>
